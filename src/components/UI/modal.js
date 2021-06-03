@@ -1,5 +1,6 @@
-import { Fragment } from 'react';
+import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
+import App from '../../App';
 
 import classes from './Modal.module.css';
 
@@ -25,8 +26,8 @@ const Modal = (props) => {
         <ModalOverlay>{props.children}</ModalOverlay>,
         portalElement
       )}
-    </Fragment>
-  );
+    </Fragment> 
+  , App);
 };
 
 export default Modal;
