@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
-import App from '../../App';
 
 import classes from './Modal.module.css';
 
@@ -27,7 +26,7 @@ const Modal = (props) => {
         portalElement
       )}
     </Fragment> 
-  , App);
+    );
 };
 
 export default Modal;
